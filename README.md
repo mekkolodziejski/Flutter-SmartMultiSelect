@@ -1,2 +1,2 @@
-# Flutter-SmartMultiSelect
+# SmartMultiSelect
  
