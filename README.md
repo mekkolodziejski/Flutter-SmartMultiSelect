@@ -51,6 +51,17 @@ SmartMultiSelect(
  },
 )
 ```
+```
+return MaterialApp(
+ title: 'Flutter Demo',
+ debugShowCheckedModeBanner: false,
+ theme: ThemeData(
+  primarySwatch: Colors.blue,
+  canvasColor: Colors.transparent, // important to rounded bottom sheet
+  ),
+ home: MyHomePage(),
+);
+```
 
 ![Screenshot_1621172443](https://user-images.githubusercontent.com/12680909/118401321-8983cb00-b665-11eb-8162-244b5ca48acc.png)
 ![Screenshot_1621172449](https://user-images.githubusercontent.com/12680909/118401325-8d175200-b665-11eb-9afc-9b437ae560d1.png)
